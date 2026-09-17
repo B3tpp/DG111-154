@@ -22,7 +22,7 @@ void draw(int playerCol, int playerRow)
         {
             if (i == playerRow && j == playerCol) // player is standing on this tile
 
-                printf("$");
+                printf("@");
             else if (tilemap[i][j] == 1) // tile value 1 = wall
                 printf("#");
             else if (tilemap[i][j] == 2) // tile value 2 = water
